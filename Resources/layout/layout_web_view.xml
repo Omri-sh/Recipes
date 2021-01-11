@@ -1,0 +1,28 @@
+﻿ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/MainTheme">
+    <Button
+        android:text="@string/save_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonTheme"
+        android:id="@+id/saveRecipeButton" />
+
+    <Button
+        android:text="@string/delete_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="@style/DeleteButtonTheme"
+        android:id="@+id/deleteRecipeButton" />
+
+    <WebView  
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

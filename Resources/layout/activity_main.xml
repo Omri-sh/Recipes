@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/MainTheme">
+
+    <ImageView
+        android:src="@drawable/recipes_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/jokeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:layout_weight="1"
+        style="@style/TextThemeWithPadding" />
+
+    <Button
+        android:id="@+id/searchRecipeButton"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_recipes_text"
+        style="@style/ButtonTheme"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/randomRecipeButton"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/random_recipes_text"
+        style="@style/ButtonTheme"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:id="@+id/ingredientSubstitutesButton"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient_substitutes_text"
+        style="@style/ButtonTheme"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/savedRecipesButton"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saved_recipes_text"
+        style="@style/ButtonTheme"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

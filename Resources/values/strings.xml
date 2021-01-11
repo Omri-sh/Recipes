@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Recipes</string>
+	<string name="recipe_text">Enter a recipe name</string>
+	<string name="recipe_text_view">Recipe name:</string>
+	<string name="excluded_text_view">Excluded ingredients:</string>
+	<string name="cuisine_text">Cuisine:</string>
+	<string name="excluded_ingredients_text">Enter a comma-separated list of excluded ingredients</string>
+	<string name="diet_text">Diet:</string>
+	<string name="intolerance_text">Intolerance:</string>
+	<string name="search_recipes">Search Recipes</string>
+	<string name="search_recipes_text">Search Recipes\n\nSearch for recipes that suit you!</string>
+	<string name="random_recipes">Random Recipes</string>
+	<string name="random_recipes_text">Random Recipes\n\nCan not choose what to eat? CLICK HERE</string>
+	<string name="ingredient_substitutes">Ingredient Substitutes</string>
+	<string name="ingredient_substitutes_text">Ingredient Substitutes\n\nAny ingredient needs a substitute!</string>
+	<string name="saved_recipes">Saved Recipes</string>
+	<string name="saved_recipes_text">Saved Recipes\n\nAll your recipes are saved with me, right here!</string>
+	<string name="save_recipe">Save Recipe</string>
+	<string name="delete_recipe">Delete Recipe</string>
+	<string name="search">Search</string>
+	<string name="previous_recipes">Previous Recipes</string>
+	<string name="next_recipes">Next Recipes</string>
+	<string name="random_prompt">Enter comma seperated tags (can be diets, meal types, cuisines, or intolerances) that the recipe must have</string>
+	<string name="ingredient_prompt">Enter an ingredient</string>
+	<string-array name="cuisines_array">
+		<item>Choose a cuisine (Not Mandatory)</item>
+		<item>African</item>
+		<item>American</item>
+		<item>British</item>
+		<item>Cajun</item>
+		<item>Caribbean</item>
+		<item>Chinese</item>
+		<item>Eastern European</item>
+		<item>European</item>
+		<item>French</item>
+		<item>German</item>
+		<item>Greek</item>
+		<item>Indian</item>
+		<item>Irish</item>
+		<item>Italian</item>
+		<item>Japanese</item>
+		<item>Jewish</item>
+		<item>Korean</item>
+		<item>Latin American</item>
+		<item>Mediterranean</item>
+		<item>Mexican</item>
+		<item>Middle Eastern</item>
+		<item>Nordic</item>
+		<item>Southern</item>
+		<item>Spanish</item>
+		<item>Thai</item>
+		<item>Vietnamese</item>
+	</string-array>
+	<string-array name="diets_array">
+		<item>Choose a diet (Not Mandatory)</item>
+		<item>Gluten Free</item>
+		<item>Ketogenic</item>
+		<item>Vegetarian</item>
+		<item>Lacto-Vegetarian</item>
+		<item>Ovo-Vegetarian</item>
+		<item>Vegan</item>
+		<item>Pescetarian</item>
+		<item>Paleo</item>
+		<item>Primal</item>
+		<item>Whole30</item>
+	</string-array>
+	<string-array name="intolerances_array">
+		<item>Choose an intolerance (Not Mandatory)</item>
+		<item>Dairy</item>
+		<item>Egg</item>
+		<item>Gluten</item>
+		<item>Grain</item>
+		<item>Peanut</item>
+		<item>Seafood</item>
+		<item>Sesame</item>
+		<item>Shellfish</item>
+		<item>Soy</item>
+		<item>Sulfite</item>
+		<item>Tree Nut</item>
+		<item>Wheat</item>
+	</string-array>
+</resources>

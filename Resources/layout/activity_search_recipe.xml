@@ -1,0 +1,129 @@
+﻿<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/MainTheme">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_recipes"
+        style="@style/HeaderTheme"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:id="@+id/recipeTextView"
+            style="@style/TextTheme"
+            android:text="@string/recipe_text_view" />  
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeEditText"
+            style="@style/TextTheme"
+            android:hint="@string/recipe_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:id="@+id/cuisineTextView"
+            style="@style/TextTheme"
+            android:text="@string/cuisine_text" />  
+        
+        <Spinner
+            android:gravity="center"
+            android:id="@+id/cuisineSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:id="@+id/dietTextView"
+            style="@style/TextTheme"
+            android:text="@string/diet_text" />
+
+        <Spinner
+            android:layout_alignRight="@id/dietTextView"
+            android:id="@+id/dietSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:id="@+id/intolerancesTextView"
+            style="@style/TextTheme"
+            android:text="@string/intolerance_text" />
+
+        <Spinner
+            android:layout_alignRight="@id/intolerancesTextView"
+            android:id="@+id/intoleranceSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:id="@+id/excludedIngredientsTextView"
+            style="@style/TextTheme"
+            android:text="@string/excluded_text_view" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/excludedIngredientsEditText"
+            style="@style/TextTheme"
+            android:hint="@string/excluded_ingredients_text" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchReciptActivityButton"
+        style="@style/ButtonTheme" />
+</LinearLayout>

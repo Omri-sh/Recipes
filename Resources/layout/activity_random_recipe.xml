@@ -1,0 +1,29 @@
+﻿<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/MainTheme">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/random_recipes"
+        style="@style/HeaderTheme"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/randomRecipeEditText"
+        style="@style/TextTheme"
+        android:hint="@string/random_prompt" />
+    <Button
+        android:text="@string/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/randomReciptActivityButton"
+        style="@style/ButtonTheme" />
+
+</LinearLayout>

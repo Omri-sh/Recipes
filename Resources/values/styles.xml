@@ -1,0 +1,52 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorText</item>
+		<item name="colorPrimaryDark">@color/colorText</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="SplashTheme" parent ="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowBackground">@drawable/splash_screen</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowActionBar">true</item>
+	</style>
+
+	<style name="TextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:textColor">@color/colorText</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:fontFamily">casual</item>
+	</style>
+
+	<style name="TextThemeWithPadding" parent="TextTheme">
+		<item name="android:layout_margin">10dp</item>
+	</style>
+
+	<style name="GeneralButtonTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:textStyle">bold</item>
+		<item name="android:fontFamily">casual</item>
+		<item name="android:textColor">@color/colorButtonText</item>
+		<item name="android:layout_margin">10dp</item>
+	</style>
+
+	<style name="ButtonTheme" parent="GeneralButtonTheme">
+		<item name="android:background">@color/colorButtonBackground</item>
+	</style>
+
+	<style name="HeaderTheme" parent="ButtonTheme">
+		<item name="android:gravity">center</item>
+		<item name="android:background">@drawable/round_corners_drawable</item>
+	</style>
+
+	<style name="DeleteButtonTheme" parent="GeneralButtonTheme">
+		<item name="android:background">@color/colorDeleteButtonBackground</item>
+	</style>
+	
+	<style name="MainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:background">@color/colorBackground</item>
+	</style>
+
+</resources>
